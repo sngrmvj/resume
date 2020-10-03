@@ -1,0 +1,44 @@
+
+<!-- Toolbar -->
+
+<!-- <div class="topnav" id="banner">
+  <a class="anchor" [routerLink]="['/home']" routerLinkActive="active"
+  [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+  Home</a>
+  
+  <a class="anchor" [routerLink]="['/experience']" routerLinkActive="active"
+  [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-line-chart" aria-hidden="true"></i>Work Experience</a>
+
+  <a class="anchor" [routerLink]="['/reports']" routerLinkActive="active"
+  [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-file-excel-o" aria-hidden="true"></i>
+  Resume</a>
+
+</div> -->
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<nav>
+  <input type="checkbox" id="check">
+  <label for="check" class="checkbtn">
+    <i class="fas fa-bars"></i>
+  </label>
+  <ul>
+    <li><a class="anchor" [routerLink]="['/home']" routerLinkActive="active"
+      [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+      Home</a>
+    </li>
+    <li>
+      <a class="anchor" [routerLink]="['/experience']" routerLinkActive="active"
+      [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-line-chart" aria-hidden="true"></i>Work Experience</a>
+    </li>
+    <li>
+      <a class="anchor" [routerLink]="['/projects']" routerLinkActive="active"
+      [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-file-excel-o" aria-hidden="true"></i>Projects</a>
+    </li>
+    <li>
+      <a class="anchor" [routerLink]="['/resume']" routerLinkActive="active"
+      [routerLinkActiveOptions]="{exact:true}"><i class="fa fa-file-excel-o" aria-hidden="true"></i>Resume</a>
+    </li>
+  </ul>
+</nav>
+
+
+<router-outlet></router-outlet>

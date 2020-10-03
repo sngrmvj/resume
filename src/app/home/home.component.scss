@@ -1,0 +1,95 @@
+
+.flex-container {
+    display: flex;
+    background-color: transparent;
+}
+
+.flex-container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+
+
+.photo-container{
+    display: flex;
+    border-radius: 20px;
+    float:left;
+    text-align: center;
+    padding-top: 30px;
+    margin-right: 50px;
+    flex-direction: column;
+    box-shadow: 0 0px 2px 0 black, 0 0px 0px 0 black;
+
+}
+
+.name{
+    font-size: 30px;
+    font-variant-caps: small-caps;
+    color: #FFBA00;
+}
+
+.photodiv1{
+    padding:10px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.photodiv2{
+    background-color: #03DAC5;
+    position: absolute;
+    border-radius: 20px;
+    width:200px;
+    box-shadow: 0 0px 2px 0 black, 0 0px 0px 0 black;
+    height: 250px;
+    margin-left:75px;
+    z-index:-1;
+}
+
+
+.container{
+    background-color: transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+.techs{
+    width:50px;
+    height:50px;
+    padding: 5px;
+    // box-shadow: 0 0px 2px 0 #FDA769, 0 0px 0px 0 #FDA769;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.otherslist{
+    display: inline-block;
+    border-left: 2px solid #FDA769;
+    padding: 7px;
+    margin-bottom: 10px; 
+}
+
+
+.vit{
+    width:60px;
+    height:60px;
+    border-radius: 10px;
+}
+
+.anchors{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+.inner_p{
+    width: 650px;
+    height: 1px;
+    display: block;
+    text-align: center;
+    margin-left: 500px ;
+    border-bottom: 1px solid #ffffff;   
+}
+

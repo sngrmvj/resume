@@ -1,0 +1,45 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~ngx-toastr/toastr';
+// @import '~ngx-toastr/toastr-bs4-alert';
+// @import '~bootstrap/scss/functions';
+// @import '~bootstrap/scss/variables';
+// @import '~bootstrap/scss/mixins';
+// @import '~ngx-toastr/toastr-bs4-alert';
+
+
+body{
+    background-color: #222831;
+    color:white;
+    font-family: "Segoe UI";
+}
+
+
+.p-accordion > p-accordionTab {
+    display: block;
+    padding:20px;
+    background-color: transparent;
+    font-size:20px;
+    box-shadow: 0 0px 2px 0 #121212, 0 0px 0px 0 black;
+    border-radius: 10px; 
+    border-left: 2px solid #FFBA00;
+}
+
+.p-accordion > p-accordionTab:focus{
+    outline: none !important;  
+    background-color: dodgerblue;
+}
+
+
+.p-accordion-header-link:focus{
+    outline: none !important; 
+    box-shadow:  0 0px 0px 0 dodgerblue;
+}
+
+.toast-container .ngx-toastr {
+    box-shadow:none !important;
+    width:320px;
+    background-color: transparent;
+    border: 2px solid green;
+    // color: green;
+}
+
