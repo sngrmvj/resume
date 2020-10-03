@@ -14,15 +14,14 @@ export class ResumeComponent implements OnInit {
   }
 
 
-
   downloadResume(){
-    const pdfUrl = '../assets/vijayasai sanagaram.pdf';
+    const pdfUrl = 'assets/vijayasai sanagaram.pdf';
     const pdfName = 'vijayasai sanagaram.pdf';
     saveAs(pdfUrl, pdfName);
   }
 
   downloadCoverLetter(){
-    const pdfUrl = '../assets/Vijayasai Sanagaram(cover letter).pdf';
+    const pdfUrl = 'assets/Vijayasai Sanagaram(cover letter).pdf';
     const pdfName = 'Vijayasai Sanagaram(cover letter).pdf';
     saveAs(pdfUrl, pdfName);
   }
