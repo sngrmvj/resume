@@ -5,10 +5,15 @@ import { WorkexperienceComponent } from "./workexperience/workexperience.compone
 import { HomeComponent } from "./home/home.component";
 import { ResumeComponent } from './resume/resume.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { ViewcardComponent } from './viewcard/viewcard.component';
 
 const routes: Routes = [
   {
     path: '',
+    component: ViewcardComponent
+  },
+  {
+    path: 'home',
     component: HomeComponent
   },
   {

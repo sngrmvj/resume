@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 // import {MatExpansionModule} from '@angular/material/expansion';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -26,6 +27,15 @@ export class AppComponent {
   //     val.style.backgroundColor = "transparent";
   //   }
   // }
+
+  myFunction() {
+    var x = document.getElementById("navbar");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
 
 
 }

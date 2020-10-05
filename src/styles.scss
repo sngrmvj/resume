@@ -1,16 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import '~ngx-toastr/toastr';
-// @import '~ngx-toastr/toastr-bs4-alert';
-// @import '~bootstrap/scss/functions';
-// @import '~bootstrap/scss/variables';
-// @import '~bootstrap/scss/mixins';
-// @import '~ngx-toastr/toastr-bs4-alert';
 
 
-body{
-    background-color: #222831;
-    color:white;
-    font-family: "Segoe UI";
+html,body{
+    background-color: #222831 !important;
+    color:white !important;
+    font-family: "Segoe UI" !important;
+    margin: 0 !important;
+    height: 100% !important;
 }
 
 
@@ -33,6 +30,25 @@ body{
 .p-accordion-header-link:focus{
     outline: none !important; 
     box-shadow:  0 0px 0px 0 dodgerblue;
+    text-decoration: none !important;
+    color: white !important; 
+}
+
+.p-accordion-header-link:hover{
+    outline: none !important; 
+    box-shadow:  0 0px 0px 0 dodgerblue;
+    text-decoration: none !important;
+    color: white !important; 
+}
+
+.p-accordion-header-text{
+    text-decoration: none !important;
+    color: white !important; 
+}
+
+.p-accordion-header-text:hover{
+    text-decoration: none !important;
+    color: white !important; 
 }
 
 .toast-container .ngx-toastr {
@@ -40,6 +56,5 @@ body{
     width:320px;
     background-color: transparent;
     border: 2px solid green;
-    // color: green;
 }
 
