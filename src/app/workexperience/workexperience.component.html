@@ -16,29 +16,25 @@
                 <label style="font-size:15px">Bengaluru, India</label><br>
                 <div style="display: flex;flex-direction: column;">
                     <label style="font-size:15px;">
-                        Owned the development of a product called Bill of Quantities (handled complete backend). 
-                        The project is regarding the prediction of domain specific Bill of Quantities based on set of project attributes and the historic data from the existing power plants. 
-                        It has role-based structure. <br>
-                        Features include -
-                        <ol>
-                            <li>Prediction of Bill of Quantities based on the historic data.</li>
-                            <li>Comparison of bill of quantities it can be with the historic data.</li>
-                            <li>Similarity Index (implemented using Data Science) between the projects.</li>
-                            <li>Users can create project or upload project using the set of project attributes.</li>
-                        </ol>
-                        Developed in Python (flask framework) and Angular. Project structure is being considered for other disciplines.
+                        Owned the development of backend of a product called Bill of Quantities. 
+                        A specific use case for BOQ is to enable the user to predict domain-specific Bill-of-Quantities for projects based on a set of provided attributes and by evaluation of historical data sets. 
+                        It would help to improvise the complicated data flow and cut down the High Non-Conformance Cost (NCC) by 3.2 Million Euros considering four projects per year with scope: piping, insulation, supports, valves, and cables. 
+                        Developed in Python, Angular and deployed to cloud foundry.
                     </label><br>
                     <label style="font-size:15px;">
-                        Owned the development of reusable chat component for Veronica(Chat bot). 
-                        It is developed in ReactJS and can be used for domain specific queries. 
-                        This reusable chat component is platform independent. It can be plugged to ReactJs as well as Angular. 
-                        The chat bot is also equipped with speech recognition and web speech API to read out the response like Google Assistant. 
-                        It is being used by domain experts and the some projects plugged this chatbot to provide good insights of their project.
+                        Currently Siemens manually annotates powerplant component data (manuals, diagrams etc.). 
+                        To avoid this, we extract metadata from a wide variety of document types automatically by using computer vision to use it in later projects. 
+                        Created secrets in AWS Secrets Manager. 
+                        Created cron job, Grafana and Influx DB in AWS EKS cluster for automated monitoring of server.
                     </label><br>
                     <label style="font-size:15px;">
-                        Developed synonyms for different target words (intents) using natural language understanding for
-                        Veronica chat bot. The intention is to give the same response for target word and its synonyms. This is
-                        developed using Rasa framework.
+                        Chat bot for querying the domain related queries. 
+                        Chatbot works based on target words called intents and respond to the target words. 
+                        We define the intents and the kind of response for the intent. 
+                        Owned the development of reusable chat component for Chat bot equipped with speech recognition. 
+                        It can be plugged to any npm project. 
+                        Developed synonyms for different target words using natural language understanding for Chat bot. 
+                        This is developed using Rasa framework.
                     </label><br>
                     <label style="font-size:15px;">
                         Owned the development of a prototype called DEW (Dashboard for Early Warning) to generate early
